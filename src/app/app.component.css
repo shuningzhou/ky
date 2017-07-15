@@ -1,0 +1,36 @@
+/* .main-content {
+  width: 100%;
+}
+
+md-sidenav-container{
+    height: calc( 100% - 64px);
+} */
+
+.ky-app-container {
+  width: 100%;
+  height: calc( 100% - 64px);
+}
+
+/* .mat-sidenav-content,md-sidenav {
+  display: flex;
+  overflow: visible;
+} */
+
+.ky-scrolling-content {
+    padding: 20px;
+    overflow: auto;
+}
+
+ #mainnav {
+    width: 150px;
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    color: white;
+} 
+
+#userslider {
+    width: 400px;
+    background-color: rgb(42, 42, 42);
+    padding: 20px;
+    color: white;
+}

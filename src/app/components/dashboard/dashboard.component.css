@@ -1,0 +1,8 @@
+.example-card {
+  width: 800px;
+}
+
+.example-header-image {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGYabOnW8fIZNTjACJfzgS82zLD92t7jZhYnILf7yRjgcFI6a');
+  background-size: cover;
+}
