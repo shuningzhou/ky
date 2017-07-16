@@ -17,7 +17,7 @@ md-sidenav-container{
 } */
 
 .ky-scrolling-content {
-    padding: 20px;
+    padding: 10px; 
     overflow: auto;
 }
 
