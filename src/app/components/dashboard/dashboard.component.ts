@@ -6,18 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  direction = "row";
-  someValue = 20;
-
   constructor() { }
 
   ngOnInit() {
   }
 
-  toggleDirection() {
-    let next = (DIRECTIONS.indexOf(this.direction) +1 ) % DIRECTIONS.length;
-    this.direction = DIRECTIONS[next];
-  }
+  tiles = [
+    {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
+    {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
+    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
+    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
+  ];
 }
-
-const DIRECTIONS = ['row', 'row-reverse', 'column', 'column-reverse'];

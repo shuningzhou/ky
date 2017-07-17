@@ -1,16 +1,13 @@
-<md-card class='fill-parent' (click)="toggleDirection()">
-      <md-card-title>'Flex' to Fill Row </md-card-title>
-      <md-card-subtitle>Simple row using "flex" on 3rd element to fill available main axis.</md-card-subtitle>
-      <md-card-content>
-        <div class="container"> 
-          <div [fxLayout]="direction" (click)="toggleDirection()" style="cursor: pointer;">
-            <div [fxFlex]="someValue">  fxFlex="20"  </div>
-            <div fxFlex="60">  fxFlex="60"  </div>
-            <div fxFlex >      fxFlex       </div>
-          </div>
-        </div>
-      </md-card-content>
-      <md-card-footer>
-        <div >&lt;div  fxLayout="{{ direction }}" &gt;</div>
-      </md-card-footer>
-</md-card>
+<div class='fill-parent'>
+  <md-grid-list cols="4" rowHeight="400px">
+    <md-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        >
+        <md-card class='fill-parent-1' [style.background]="tile.color">
+          {{tile.text}}
+        </md-card>
+    </md-grid-tile>
+  </md-grid-list>
+</div>
