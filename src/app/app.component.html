@@ -1,15 +1,13 @@
-<app-top-bar (onUserButtonClicked) = "userslider.toggle()"></app-top-bar>
+<app-top-bar (onUserButtonClicked) = "toggleUserSidenav()"></app-top-bar>
 <md-sidenav-container class="ky-app-container">
-    <md-sidenav id="mainnav" mode="side" opened="true">
-    <div class="ky-scrolling-content">
-      main nav
-    </div>
+  <md-sidenav id="MainNav" mode="side" opened="true" [disableClose]="true">
+    <app-left-nav>
+    </app-left-nav>
   </md-sidenav>
-  <md-sidenav id="userslider" #userslider mode="side" align="end">
-    <div class="ky-scrolling-content">
-      User
-    </div>
-  </md-sidenav>
+  <md-sidenav id="userslider" #userSidenav mode="side" align="end">
+    <app-right-slider>
+    </app-right-slider>
+  </md-sidenav> 
   <div class="ky-scrolling-content">
     <router-outlet></router-outlet>
   </div>

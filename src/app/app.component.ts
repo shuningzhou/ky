@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import {MdSidenav} from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,14 @@ export class AppComponent {
   title = 'app';
   shouldShowRightSlider : boolean = false;
 
-  showRightSlider()
+  @ViewChild('userSidenav') userSidenav:MdSidenav;
+
+  constructor(){
+  }
+
+  toggleUserSidenav()
   {
-    this.shouldShowRightSlider = !this.shouldShowRightSlider;
+    this.userSidenav.toggle();
   }
 }
 
