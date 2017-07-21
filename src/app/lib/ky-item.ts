@@ -9,6 +9,10 @@ export class KyItem {
     defaultValue: any;
     cols: number;
     rows: number;
+    errorMessageConfig:any = {
+        'required': 'Required'
+    };
+    validators: any[];
 
     get ITEM_TPYE_TEXT() {
         return KyItem.ITEM_TPYE_TEXT;
@@ -22,4 +26,7 @@ export class KyItem {
         return KyItem.ITEM_TPYE_DATE;
     }
 
+    getValidatorErrorMessage(validatorName: string) {
+        return this.errorMessageConfig[validatorName];
+    }
 }

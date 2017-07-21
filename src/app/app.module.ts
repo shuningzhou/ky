@@ -15,6 +15,7 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { KyFormControlComponent } from './lib/ky-form-control/ky-form-control.component';
 import { KyFormItemControlComponent } from './lib/ky-form-item-control/ky-form-item-control.component';
+import { ClientFormComponent } from './components/forms/client-form.component';
 
 const appRoutes: Routes = [
   {path:'', component:DashboardComponent},
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     LoginComponent,
     DashboardComponent,
     KyFormControlComponent,
-    KyFormItemControlComponent
+    KyFormItemControlComponent,
+    ClientFormComponent
   ],
   imports: [
     BrowserModule,

@@ -47,11 +47,14 @@ $grey-light:#B0B4BA; */
 }
 
 .content-section {
-    margin: 20px;
+    height:calc( 100% - 100px);
+    margin: 10px;
+    // background-color: rgba(55, 55, 55, 0.05);
 }
 
 .action-section {
     position: absolute;
+    // background-color: rgba(55, 55, 55, 0.05);
     right: 10px;
     bottom: 10px;
 }

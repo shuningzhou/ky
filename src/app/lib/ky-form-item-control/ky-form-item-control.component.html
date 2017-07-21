@@ -1,7 +1,8 @@
 <div [ngSwitch]="item.itemType">
 
   <md-input-container *ngSwitchCase="item.ITEM_TPYE_TEXT">
-    <input mdInput [placeholder]="item.placeHolder" [value]="item.defaultValue" [(ngModel)]="model[item.valuePath]">
+    <input mdInput [formControl]="control" [placeholder]="item.placeHolder" [(ngModel)]="model[item.valuePath]" >
+    <md-error *ngIf="errorMessage !== null">{{errorMessage}}</md-error>
   </md-input-container>
 
   <md-input-container *ngSwitchCase="item.ITEM_TPYE_NUMBER">
