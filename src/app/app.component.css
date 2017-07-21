@@ -9,6 +9,7 @@ md-sidenav-container{
 .ky-app-container {
   width: 100%;
   height: calc( 100% - 64px);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* .mat-sidenav-content,md-sidenav {

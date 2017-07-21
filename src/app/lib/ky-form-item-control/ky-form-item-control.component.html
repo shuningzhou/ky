@@ -1,0 +1,19 @@
+<div [ngSwitch]="item.itemType">
+
+  <md-input-container *ngSwitchCase="item.ITEM_TPYE_TEXT">
+    <input mdInput [placeholder]="item.placeHolder" [value]="item.defaultValue" [(ngModel)]="model[item.valuePath]">
+  </md-input-container>
+
+  <md-input-container *ngSwitchCase="item.ITEM_TPYE_NUMBER">
+    <input mdInput type="number" [placeholder]="item.placeHolder" [value]="item.defaultValue" [(ngModel)]="model[item.valuePath]">
+  </md-input-container>
+
+  <md-input-container *ngSwitchCase="item.ITEM_TPYE_DATE">
+    <input mdInput type="date" [placeholder]="item.placeHolder" [value]="item.defaultValue" [(ngModel)]="model[item.valuePath]">
+  </md-input-container>
+
+  <md-input-container *ngSwitchDefault>
+    <input mdInput [placeholder]="item.placeHolder" [value]="item.defaultValue" [(ngModel)]="model[item.valuePath]">
+  </md-input-container>
+
+</div>

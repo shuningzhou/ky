@@ -1,13 +1,13 @@
-<div class='fill-parent'>
+<div class="fill-parent-5">
   <md-grid-list cols="4" rowHeight="400px">
     <md-grid-tile
         *ngFor="let tile of tiles"
         [colspan]="tile.cols"
         [rowspan]="tile.rows"
         >
-        <md-card class='fill-parent-1' [style.background]="tile.color">
-          {{tile.text}}
-        </md-card>
+
+        <app-ky-form-control [model]="user" [kyForm]="kyForm"></app-ky-form-control>
+        
     </md-grid-tile>
   </md-grid-list>
 </div>

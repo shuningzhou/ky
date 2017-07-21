@@ -1,0 +1,24 @@
+<div class="fill-parent-5" [style.backgroundColor]="'lightgreen'">
+
+   <div class="ky-card fill-parent-0 container-shadow">
+
+    <div class="card-header card-header-shadow mat-typography">
+      {{kyForm.title}}
+    </div>
+
+    <div class="content-section mat-typography">
+      <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+
+        <md-grid-list [cols]="kyForm.cols" rowHeight="80px">
+          <md-grid-tile *ngFor="let item of kyForm.items" [colspan]="item.cols" [rowspan]="item.rows">
+            <app-ky-form-item-control class="fill-parent-5" [model]="model" [item]="item"></app-ky-form-item-control>
+          </md-grid-tile>
+        </md-grid-list>
+      </form>
+    </div> 
+
+    <div class="action-section mat-typography">
+        <button md-raised-button color="accent" type="submit">Submit</button>
+    </div> 
+  </div>
+</div>

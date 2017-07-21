@@ -1,0 +1,58 @@
+/* $white: #FFFFFF;
+$black: #000000;
+$off-white: #F4F5F6;
+$grey-dark: #929292;
+$grey-medium: #d8d8d8;
+$grey-medium2: #e2e2e2;
+$grey-light:#B0B4BA; */
+
+.fill-parent-5{
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+.fill-parent-0{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.ky-card {
+    background-color: #FFFFFF;
+}
+
+.container-shadow {
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+}
+
+.card-header {
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    color:#929292;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.card-header-shadow {
+    box-shadow: 0px 1px 0px #DDDDDD;
+}
+
+.content-section {
+    margin: 20px;
+}
+
+.action-section {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
