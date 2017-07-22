@@ -1,0 +1,20 @@
+[
+  {
+    "id" : "1",
+    "companyId" : "1",
+    "date": "2017-01-01",
+    "minibookStatus": "保存在公司的办公室里"
+  },
+  {
+    "id" : "2",
+    "companyId" : "1",
+    "date": "2017-02-01",
+    "minibookStatus": "张律师保管"
+  },
+  {
+    "id" : "2",
+    "companyId" : "1",
+    "date": "2017-03-01",
+    "minibookStatus": "马会计保管"
+  }
+]

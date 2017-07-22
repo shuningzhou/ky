@@ -105,7 +105,7 @@ export class KyFormControlComponent implements OnInit {
       this.actualCols = this.kyForm.cols - 3;
     }
     else{
-      this.actualCols = 2;
+      this.actualCols = 1;
     }
 
     console.log(this.actualCols);

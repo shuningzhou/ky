@@ -1,0 +1,20 @@
+  {
+    "id" : "4",
+    "name" : "Troy Fang",
+    "phone": "6041234567",
+    "email": "123@gmail.com",
+    "imageUrl": "app/assets/images/male.jpg",
+    "street": "1234 No.3 Road",
+    "city": "New westminster",
+    "province": "British Columbia",
+    "country": "Canada",
+    "postCode": "V3B123",
+    "birthPlaceProvince" : "台湾",
+    "birthPlaceCity" : "高雄",
+    "birthday" : "1989-04-03",
+    "expectedInvestmentAmount": "1",
+    "InterestedInvestmentType": ["1", "2"],
+    "thumbnailUrl": "app/assets/images/male-thumbnail.jpg",
+    "birthdayTaskId": "1",
+    "birthdayTaskUsers": ["Kyle Cullham", "Joanna Lin", "David Chaves"]
+  }

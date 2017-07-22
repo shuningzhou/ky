@@ -1,0 +1,46 @@
+[
+  {
+    "id" : "1",
+    "name" : "Peter Zhou",
+    "phone": "6041234567",
+    "email": "123@gmail.com",
+    "city": "Coquitlam",
+    "birthPlace" : "江苏-南京",
+    "birthday" : "1987-04-03",
+    "expectedInvestmentAmount": "$1,000,000.00",
+    "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+  },
+  {
+    "id" : "2",
+    "name" : "Tony He",
+    "phone": "6041234567",
+    "email": "123@gmail.com",
+    "city": "Burnaby",
+    "birthPlace" : "湖北-武汉",
+    "birthday" : "1989-04-03",
+    "expectedInvestmentAmount": "$3,000,000.00",
+    "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+  },
+  {
+    "id" : "3",
+    "name" : "Kevin Li",
+    "phone": "6041234567",
+    "email": "123@gmail.com",
+    "city": "Vancouver",
+    "birthPlace" : "北京",
+    "birthday" : "1987-04-03",
+    "expectedInvestmentAmount": "$4,000,000.00",
+    "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+  },
+  {
+    "id" : "4",
+    "name" : "Troy Fang",
+    "phone": "6041234567",
+    "email": "123@gmail.com",
+    "city": "New westminster",
+    "birthPlace" : "台湾-高雄",
+    "birthday" : "1989-04-03",
+    "expectedInvestmentAmount": "$5,000,000.00",
+    "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+  }
+]

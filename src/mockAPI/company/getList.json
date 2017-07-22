@@ -1,0 +1,45 @@
+[
+  {
+    "id" : "1",
+    "name" : "SourceOven INC.",
+    "registrationStreet": "123 No.3 Road",
+    "registrationCity": "Richmond",
+    "registrationDate": "2017-01-01",
+    "projects": ["KTV项目", "连锁超市", "Cambie写字楼"],
+    "annualInspectionDate": "07-04",
+    "gstNumber": "GST1000001",
+    "gstAnnualInspectionDate" : "08-01",
+    "bussinessNumber" : "bn000001",
+    "minibookStatus": "保存在公司的办公室里",
+    "taxDate": "08-01"
+  },
+  {
+    "id" : "2",
+    "name" : "2131231BC INC.",
+    "registrationStreet": "123 No.3 Road",
+    "registrationCity": "Richmond",
+    "registrationDate": "2017-01-01",
+    "projects": ["KTV项目", "连锁超市", "Cambie写字楼"],
+    "annualInspectionDate": "02-04",
+    "gstNumber": "GST1000003",
+    "gstAnnualInspectionDate" : "06-01",
+    "bussinessNumber" : "bn000003",
+    "minibookStatus": "张律师保管",
+    "taxDate": "02-01"
+  },
+  {
+    "id" : "2",
+    "name" : "Doa INC.",
+    "registrationStreet": "123 No.3 Road",
+    "registrationCity": "Richmond",
+    "registrationDate": "2017-01-01",
+    "projects": ["KTV项目", "连锁超市", "Cambie写字楼"],
+    "directors": ["Kevin Li", "Tony He", "Peter Zhou"],
+    "annualInspectionDate": "04-04",
+    "gstNumber": "GST1000002",
+    "gstAnnualInspectionDate" : "06-01",
+    "bussinessNumber" : "bn000002",
+    "minibookStatus": "马会计保管",
+    "taxDate": "01-01"
+  }
+]

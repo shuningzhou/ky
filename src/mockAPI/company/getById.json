@@ -1,0 +1,43 @@
+  {
+    "id" : "1",
+    "name" : "SourceOven INC.",
+    "registrationStreet": "123 No.3 Road",
+    "registrationCity": "Richmond",
+    "registrationProvince": "British Columbia",
+    "registrationCountry": "Canada",
+    "registrationPostcode": "V12VB2",
+    "registrationDate": "2017-01-01",
+    "companyNumber": "CN000001",
+    "gstNumber": "GST1000001",
+    "bussinessNumber" : "bn000001",
+    "gstAnnualInspectionDate" : "08-01",
+    "annualInspectionDate": "07-04",
+    "taxDate": "08-01",
+    "yearEndDate": "12-01",
+    "corpTaxDueDate" : "03-01",
+    "gstFrequency":"1",
+    "gstDates":[
+        {
+            "startDate": "01-01",
+            "endDate": "03-01"
+        },
+        {
+            "startDate": "03-01",
+            "endDate": "06-01"
+        },
+        {
+            "startDate": "06-01",
+            "endDate": "09-01"
+        },
+        {
+            "startDate": "09-01",
+            "endDate": "12-01"
+        }
+    ],
+    "yearEndDateTaskId": "2",
+    "yearEndDateTaskUsers": ["Kyle Cullham"],
+    "registrationDateTaskId": "3",
+    "registrationDateTaskUsers": ["Joanna Lin"],
+    "gstDateTaskId": "4",
+    "gstDateTaskUsers": ["Jonggap Kim"]
+  }

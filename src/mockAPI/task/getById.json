@@ -1,0 +1,55 @@
+{
+    "id" : "1",
+    "name" : "设计一个目录",
+    "completionDate": "2017-07-04",
+    "earlyNotifyDays": "2",
+    "recurrentType": "0",
+    "smsNotification": "0",
+    "cost": "$1,000.00",
+    "costIncludedInCalculation": "1",
+    "description": "需要设置一个目录 可以上传文件 可以选择一个文件的下载链接放在列表里",
+    "registrationPostcode": "V12VB2",
+    "registrationDate": "2017-01-01",
+    "companyNumber": "CN000001",
+    "gstNumber": "GST1000001",
+    "bussinessNumber" : "bn000001",
+    "gstAnnualInspectionDate" : "08-01",
+    "annualInspectionDate": "07-04",
+    "taxDate": "08-01",
+    "yearEndDate": "12-01",
+    "corpTaxDueDate" : "03-01",
+    "gstFrequency":"1",
+    "completionPercentageDisplay": "0%",
+    "completionPercentage": "0",
+    "users":[
+        {
+            "id": "1",
+            "name": "Kyle Cullham",
+            "phone": "604213245",
+            "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Joanna Li",
+            "phone": "604213247",
+            "thumbnailUrl": "app/assets/images/male-thumbnail.jpg"
+        }
+    ],
+    "objectId": "2",
+    "objectModel": "company",
+    "files":[
+        {
+            "id": "1",
+            "name": "contract.pdf",
+            "date": "2017-01-02",
+            "keyInBucket": "123"
+        },
+        {
+            "id": "2",
+            "name": "contract.pdf",
+            "date": "2017-02-02",
+            "keyInBucket": "124"
+        }
+    ],
+    "taskInstructionId": "1"
+  }
