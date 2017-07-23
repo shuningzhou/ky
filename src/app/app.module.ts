@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { APP_INITIALIZER } from '@angular/core';
+import { AppConfig }       from './app.config';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -16,11 +18,17 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { KyFormControlComponent } from './lib/ky-form-control/ky-form-control.component';
 import { KyFormItemControlComponent } from './lib/ky-form-item-control/ky-form-item-control.component';
 import { ClientFormComponent } from './components/forms/client-form.component';
+import { ClientListComponent } from './components/client/client-list/client-list.component';
+import { ClientServiceFactory } from './services/gateways/client/client.service.factory';
 
 const appRoutes: Routes = [
   {path:'', component:DashboardComponent},
   {path:'login', component: LoginComponent}
 ];
+
+export function initConfig(config: AppConfig){
+    return () => config.load();
+}
 
 @NgModule({
   declarations: [
@@ -32,7 +40,8 @@ const appRoutes: Routes = [
     DashboardComponent,
     KyFormControlComponent,
     KyFormItemControlComponent,
-    ClientFormComponent
+    ClientFormComponent,
+    ClientListComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +53,11 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [
+    ClientServiceFactory,
+    AppConfig,
+    { provide: APP_INITIALIZER, useFactory: initConfig, deps: [AppConfig], multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
